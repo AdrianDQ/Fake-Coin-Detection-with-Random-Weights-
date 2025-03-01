@@ -114,7 +114,7 @@ int main() {
         cout << YELLOW << "1. Ensure one coin is lighter than the rest\n";
         cout << YELLOW << "2. Handle exception where all coins may have the same weight\n";
         cout << YELLOW << "============================================================\n";        
-        cout << YELLOW << "Enter choice (1 or 2): ";
+        cout << RESET << "Enter choice (1 or 2): ";
         getline(cin, input);
 
         if (isValidInteger(input)) {
