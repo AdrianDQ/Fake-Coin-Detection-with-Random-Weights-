@@ -108,13 +108,13 @@ int main() {
     int choice;
     
     while (true) {
-        cout << "============================================================\n";
-        cout << "CHOOSE A MODE FOR FAKE COIN DETECTION:\n";
-        cout << "------------------------------------------------------------\n";
-        cout << "1. Ensure one coin is lighter than the rest\n";
-        cout << "2. Handle exception where all coins may have the same weight\n";
-        cout << "============================================================\n";        
-        cout << "Enter choice (1 or 2): ";
+        cout << YELLOW << "============================================================\n";
+        cout << YELLOW << "           CHOOSE A MODE FOR FAKE COIN DETECTION:\n";
+        cout << YELLOW << "------------------------------------------------------------\n";
+        cout << YELLOW << "1. Ensure one coin is lighter than the rest\n";
+        cout << YELLOW << "2. Handle exception where all coins may have the same weight\n";
+        cout << YELLOW << "============================================================\n";        
+        cout << YELLOW << "Enter choice (1 or 2): ";
         getline(cin, input);
 
         if (isValidInteger(input)) {
