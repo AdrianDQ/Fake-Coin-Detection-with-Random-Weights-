@@ -150,7 +150,7 @@ int main() {
     if (choice == 1) {
         do {// case 1
             fakeWeight = rand() % 11 + 10; // Random weight for fake coins (10-20)
-        } while (fakeWeight >= normalWeight); // Ensuring it's strictly lighter
+        } while (fakeWeight >= normalWeight); // Ensuring fake coin is lighter
 
     } else if (choice == 2) {
         do {// case 2
